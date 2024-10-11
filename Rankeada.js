@@ -1,7 +1,5 @@
-let vit = 50;
-let derr = 20;
+function calcular(vit, derr) {
 let niv = ""
-
 let cal = vit - derr;
 
 if (vit <= 10) {
@@ -21,3 +19,6 @@ if (vit <= 10) {
 }
 
 console.log(`O herói tem de saldo de ${cal} está no nível de ${niv}`)
+}
+
+// console.log(calcular(50, 20))
